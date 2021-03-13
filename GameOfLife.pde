@@ -7,7 +7,7 @@ import de.bezier.guido.*;
  private boolean running = true; //used to start and stop program
  
  public void settings() {
-   size(800,800);
+   size(400,400);
  }
  
  public void setup () {
@@ -115,8 +115,8 @@ import de.bezier.guido.*;
    private boolean alive;
  
    public Life (int row, int col) {
-     width = 800/NUM_COLS;
-     height = 800/NUM_ROWS;
+     width = 400/NUM_COLS;
+     height = 400/NUM_ROWS;
      myRow = row;
      myCol = col;
      x = myCol*width;
